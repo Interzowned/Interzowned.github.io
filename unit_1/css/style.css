@@ -1,7 +1,11 @@
 body {
-	background-color: #FFB380;
+	background: url(img/scarecrow.png);
 }
 
 h1, p{
 	color: rgba(0,0,150,0.75);
+}
+
+.bkg{
+	width: 1000px;
 }
