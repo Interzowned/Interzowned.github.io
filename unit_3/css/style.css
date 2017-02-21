@@ -7,13 +7,13 @@ body{
 #hero{
 	position: absolute;
 	width: 100%;
-/*	height: 100px;*/
+	height: 1000px;
 	top: 0;
 	left: 0;
 	background-image: url("https://static.pexels.com/photos/34085/pexels-photo.jpg");
 	background-position: center;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	z-index: -10;
 }
 
