@@ -10,7 +10,7 @@ body{
 	height: 1000px;
 	top: 0;
 	left: 0;
-	background-image: url("https://static.pexels.com/photos/34085/pexels-photo.jpg");
+	background-image: url("https://github.com/Interzowned/Interzowned.github.io/blob/master/unit_3/css/images/Coffee2.png?raw=true");
 	background-position: center;
 	background-size: cover;
 	background-repeat: repeat;
@@ -27,7 +27,7 @@ body{
 	height: %;
 	position: relative;
 	margin: auto;
-	margin-top: 5%;
+	margin-top: 2%;
 	z-index: 10;
 	padding-top: 35px;
 	min-width: 750px;
