@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Source+Serif+Pro');
+
 body{
 	font-family: "Palatino Linotype", "Book Antiqua", serif;
 	color: #f8f2ec;
@@ -47,17 +49,24 @@ h1,h3,p {
 	width: 75%;
 }
 h1{
+	font-family: "Hammersmith One", Helvetica, "Sans Serif";
 	width: 75%;
 	max-width: 90%;
-	font-size: 55px;
+	font-size: 5em;
 	padding-bottom: 15px;
 }
 h3{
-	font-weight: 900;
+	font-family: "Source Serif Pro"; "Times New Roman"; Serif;
+	font-weight: 700;
 	text-transform: uppercase;
 	padding-bottom: 10px;
 	font-size: 20px;
 	font-style: italic;
+}
+p{
+	font-family: "Source Serif Pro"; "Times New Roman"; Serif;
+	max-width: 450px;
+	line-height: 1.5em;
 }
 hr{
 	width: 50%;
@@ -65,15 +74,21 @@ hr{
 	border-width: 2px;
 	max-width: 550px;
 }
-#aboutUS{
-	font-size: 20px;
+#aboutUS,#weOffer{
+	font-size: 2em;
+	padding-bottom: 7px;
+
 }
 #aboutUsP{
 	font-size: 16px;
+	padding-bottom: 15px;
 }
+
 ul{
+	font-family: "Source Serif Pro"; "Times New Roman"; Serif;
 	text-align: center;
     list-style-type: none;
+    line-height: 1.5em;
 }
 #email{
 	color: #f8f2ec;
