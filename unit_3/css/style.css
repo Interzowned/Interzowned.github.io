@@ -10,7 +10,7 @@ body{
 	height: 1000px;
 	top: 0;
 	left: 0;
-	background-image: url("https://github.com/Interzowned/Interzowned.github.io/blob/master/unit_3/css/images/coffee3.jpeg?raw=true");
+	background-image: url("../images/coffee3.jpeg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: repeat;
