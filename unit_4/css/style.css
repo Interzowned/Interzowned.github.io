@@ -1,24 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Roboto+Condensed|Source+Serif+Pro');
 
 body{
 	font-family: "Palatino Linotype", "Book Antiqua", serif;
 	color: #f8f2ec;
-/*	color: white;*/
-}
-
-#hero{
-	position: absolute;
-	width: 100%;
-	height: 1000px;
-	top: 0;
-	left: 0;
-	background-image: url("../images/coffee3.jpeg");
+	background-image: url("../images/coffee3.jpeg"); /*Rememeber this...*/
 	background-position: center;
 	background-size: cover;
-	background-repeat: repeat;
-	z-index: -10;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*through this*/
 }
-
 #contain {
 	border-color: black;
 	border-style: solid;
@@ -42,30 +33,36 @@ img{
 	border-radius: 25px;
 
 }
-
 h1,h3,p {
 	text-align: center;
 	margin: auto;
 	width: 75%;
 }
 h1{
-	font-family: "Hammersmith One", Helvetica, "Sans Serif";
+	font-family: /*Helvetica,*/ "Roboto Condensed", Helvetica, "Sans Serif";
 	width: 75%;
 	max-width: 90%;
-	font-size: 5em;
-	padding-bottom: 15px;
+	font-size: 5.5em;
+	font-weight: 300;
+	padding-bottom: 30px;
+	letter-spacing: -0.08em;
+	line-height: 0.8em;
+	word-spacing: 0.2em;
+	text-transform: uppercase;
 }
 h3{
-	font-family: "Source Serif Pro"; "Times New Roman"; Serif;
-	font-weight: 700;
-	text-transform: uppercase;
-	padding-bottom: 10px;
-	font-size: 20px;
+	font-family: Merriweather; "Times New Roman"; Serif;
+	font-weight: 400;
+/*	text-transform: uppercase;*/
+	padding-bottom: 30px;
+	font-size: 1.25em;
+	word-spacing: 0.25em;
 	font-style: italic;
 }
 p{
-	font-family: "Source Serif Pro"; "Times New Roman"; Serif;
-	max-width: 450px;
+	text-align: justify;
+	font-family: Merriweather; "Times New Roman"; Serif;
+	max-width: 550px;
 	line-height: 1.5em;
 }
 hr{
@@ -73,25 +70,39 @@ hr{
 	border-color: #dfbf9f;
 	border-width: 2px;
 	max-width: 550px;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+img{
+	padding-bottom: 25px;
 }
 #aboutUS,#weOffer{
 	font-size: 2em;
 	padding-bottom: 7px;
+	margin-top: 0;
 
 }
 #aboutUsP{
 	font-size: 16px;
 	padding-bottom: 15px;
 }
+#ulContain{
+	display: block;
+	margin: auto;
 
+}
 ul{
-	font-family: "Source Serif Pro"; "Times New Roman"; Serif;
+	font-family: Merriweather; "Times New Roman"; Serif;
 	text-align: center;
     list-style-type: none;
     line-height: 1.5em;
+    margin-top: 0;
 }
 #email{
 	color: #f8f2ec;
+}
+.center{
+	text-align: center;
 }
 
 
