@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Condensed');
-@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Roboto+Condensed|Source+Serif+Pro');
 
 body{
 	font-family: "Palatino Linotype", "Book Antiqua", serif;
@@ -17,12 +16,12 @@ body{
 	background-color: rgba(51,26,11,0.85);
 	border-radius: 50px;
 	width: 90%;
-	height: %;
 	position: relative;
 	margin: auto;
 	margin-top: 2%;
 	z-index: 10;
 	padding-top: 35px;
+	padding-bottom: 35px;
 	min-width: 750px;
 }
 img{ 
@@ -51,7 +50,7 @@ h1{
 	text-transform: uppercase;
 }
 h3{
-	font-family: Merriweather; "Times New Roman"; Serif;
+	font-family: Merriweather, Times, serif;
 	font-weight: 400;
 /*	text-transform: uppercase;*/
 	padding-bottom: 30px;
@@ -61,7 +60,7 @@ h3{
 }
 p{
 	text-align: justify;
-	font-family: Merriweather; "Times New Roman"; Serif;
+	font-family: Merriweather, Times, serif;
 	max-width: 550px;
 	line-height: 1.5em;
 }
@@ -92,14 +91,16 @@ img{
 
 }
 ul{
-	font-family: Merriweather; "Times New Roman"; Serif;
+	font-family: Merriweather, Times, serif;
 	text-align: center;
     list-style-type: none;
     line-height: 1.5em;
     margin-top: 0;
 }
+
 #email{
 	color: #f8f2ec;
+	margin-bottom: 15px;
 }
 .center{
 	text-align: center;
