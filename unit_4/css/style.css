@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Condensed');
 
 body{
-	font-family: "Palatino Linotype", "Book Antiqua", serif;
 	color: #f8f2ec;
 	background-image: url("../images/coffee3.jpeg"); /*Rememeber this...*/
 	background-position: center;
@@ -45,12 +44,14 @@ h1{
 	font-weight: 300;
 	padding-bottom: 30px;
 	letter-spacing: -0.08em;
-	line-height: 0.8em;
+	line-height: 0.75em;
 	word-spacing: 0.2em;
 	text-transform: uppercase;
 }
-h3{
+h3,p,ul{
 	font-family: Merriweather, Times, serif;
+}
+h3{
 	font-weight: 400;
 /*	text-transform: uppercase;*/
 	padding-bottom: 30px;
@@ -60,7 +61,6 @@ h3{
 }
 p{
 	text-align: justify;
-	font-family: Merriweather, Times, serif;
 	max-width: 550px;
 	line-height: 1.5em;
 }
@@ -91,7 +91,6 @@ img{
 
 }
 ul{
-	font-family: Merriweather, Times, serif;
 	text-align: center;
     list-style-type: none;
     line-height: 1.5em;
