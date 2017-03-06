@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Condensed|Open+Sans');
 /** {
    border: 1px solid red !important;
 }*/
@@ -38,7 +38,7 @@ h1{
 	text-transform: uppercase;
 }
 #slogan{
-	font-family: Merriweather, Times, serif;
+	font-family: "Merriweather", Times, serif;
 	color:  #f8f2ec;
 	text-align:  center;
 	font-weight: 400;
@@ -81,20 +81,19 @@ h2{
 	font-family: /*Helvetica,*/ "Roboto Condensed", Helvetica, "Sans Serif";
 }
 p,ul{
-	font-family: Merriweather, Times, serif;
+	font-family: "Merriweather", Times, serif;
 }
 p{
 	text-align: justify;
 	max-width: 550px;
 	line-height: 1.5em;
-		font-size: 16px;
+	font-size: 16px;
 	margin-bottom: 15px;
 }
 hr{
-	width: 50%;
+	width: 100%;
 	border-color: #dfbf9f;
 	border-width: 2px;
-	max-width: 550px;
 	margin-top: 0;
 	margin-bottom: 25px;
 }
@@ -105,17 +104,13 @@ hr{
 	margin: 0 auto;
 	padding-bottom: 25px;
 }
-#aboutUS,#weOffer{
+#aboutUS,#weOffer,#excitingNews{
 	font-size: 2.5em;
 	margin: 0 auto;
 	font-weight: 300;
 	padding-bottom: 12px;
 
 }
-/*#aboutUsP{
-	font-size: 16px;
-	margin-bottom: 15px;
-}*/
 #ulContain{
 	display: block;
 	margin: auto;
@@ -128,6 +123,31 @@ ul{
 	text-align: center;
     list-style-type: none;
     line-height: 1.5em;
+}
+.relatedInfo{
+	font-family: "open sans";
+	text-align: center;
+	font-size: 0.8em;
+	font-style: italic;
+	margin: 0 auto;
+}
+.rekatedUL{
+	padding: 0;
+	margin-bottom: 15px;
+}
+.relatedLI{
+	font-family: "open sans";
+	display: inline;
+	font-size: 0.7em;
+	padding: 0 15px;
+}
+.relatedULLink{
+	color:  #f8f2ec;
+	text-decoration: none;
+}
+.relatedULLink:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 #email{
