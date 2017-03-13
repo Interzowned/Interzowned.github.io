@@ -15,6 +15,57 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed; /*through this*/
 }
+header{
+	background-image: url("../images/CoffeeBar.jpeg");
+	height: 675px;
+	padding-top: 206px;
+}
+section{
+	width: 75%;
+	float: left;
+}
+aside{
+	width: 25%;
+	float: right;
+}
+h1{
+	font-family: /*Helvetica,*/ "Roboto Condensed", Helvetica, "Sans Serif";
+	margin: 0;
+	padding: 0;
+	color:  #000;
+	font-size: 7em;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: -0.08em;
+	line-height: 0.75em;
+	word-spacing: 0.2em;
+	text-transform: uppercase;
+}
+h2,h3,p {
+	text-align: center;
+	margin: auto;
+	width: 75%;
+}
+img{
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	max-width: 650px;
+	margin-bottom: 20px;
+}
+h2{
+	font-family: /*Helvetica,*/ "Roboto Condensed", Helvetica, "Sans Serif";
+}
+p,ul{
+	font-family: "Merriweather", Times, serif;
+}
+p{
+	text-align: justify;
+	max-width: 650px;
+	line-height: 1.5em;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
 #contain {
 	position: relative;
 	top: 55px;
@@ -65,29 +116,11 @@ body{
     text-decoration: underline;
 /*    text-transform: uppercase;*/
 }
-header{
-	background-image: url("../images/CoffeeBar.jpeg");
-	height: 675px;
-	padding-top: 206px;
-}
 #headerContain{
 	margin: 0 auto;
 	background-color: rgba(255,255,255,1);
 	width: 670px;
 	padding: 25px 0;
-}
-h1{
-	font-family: /*Helvetica,*/ "Roboto Condensed", Helvetica, "Sans Serif";
-	margin: 0;
-	padding: 0;
-	color:  #000;
-	font-size: 7em;
-	font-weight: 300;
-	text-align: center;
-	letter-spacing: -0.08em;
-	line-height: 0.75em;
-	word-spacing: 0.2em;
-	text-transform: uppercase;
 }
 #slogan{
 	font-family: "Merriweather", Times, serif;
@@ -98,38 +131,6 @@ h1{
 	font-size: 1.25em;
 	word-spacing: 0.25em;
 	font-style: italic;
-}
-img{
-	display: block;
-	margin: 0 auto;
-	width: 50%;
-	max-width: 650px;
-	margin-bottom: 20px;
-}
-h2,h3,p {
-	text-align: center;
-	margin: auto;
-	width: 75%;
-}
-h2{
-	font-family: /*Helvetica,*/ "Roboto Condensed", Helvetica, "Sans Serif";
-}
-p,ul{
-	font-family: "Merriweather", Times, serif;
-}
-p{
-	text-align: justify;
-	max-width: 650px;
-	line-height: 1.5em;
-	font-size: 16px;
-	margin-bottom: 15px;
-}
-hr{
-	width: 100%;
-	border-color: #dfbf9f;
-	border-width: 2px;
-	margin-top: 0;
-	margin-bottom: 25px;
 }
 /*#aboutUsDiv{
 	display: block;
@@ -145,10 +146,18 @@ hr{
 	padding-bottom: 12px;
 
 }
+.weOfferLi{
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+#weOfferUL{
+	margin: 0 auto;
+	text-align: center;
+}
 #ulContain{
 	display: block;
 	margin: auto;
-
 }
 .relatedInfo{
 	font-family: "open sans";
@@ -161,23 +170,24 @@ hr{
 	padding: 0;
 	margin-bottom: 15px;
 }
-.relatedLI{
+.asideLi{
 	font-family: "open sans";
-	display: inline;
 	font-size: 0.7em;
 	padding: 0 15px;
 }
-.relatedULLink{
+.asideULLink{
 	color:  #f8f2ec;
 	text-decoration: none;
+	text-align: center;
 }
-.relatedULLink:hover {
+.asideULLink:hover {
     text-decoration: underline;
     text-transform: uppercase;
 }
 
 #email{
-	color: #f8f2ec;
+	clear: both;
+	color: #000;
 	margin-bottom: 15px;
 }
 .center{
@@ -193,6 +203,12 @@ footer{
 }
 #aboutUsAside{
 	float: right;
+}
+#navBot{
+	background: #fff;
+	height: 100px;
+	width: 100%;
+	z-index: 1;
 }
 .clearfix:after{
 	visibility: hidden;
