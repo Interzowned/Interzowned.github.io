@@ -16,19 +16,56 @@ body{
     background-attachment: fixed; /*through this*/
 }
 #contain {
+	position: relative;
+	top: 75px;
 	border-color: black;
 	border-style: solid;
 	border-width: 1px;
+	padding-top: 75px;
 	background-color: rgba(51,26,11,0.85);
-	border-radius: 50px;
-/*	width: 90%;*/
+	width: 100%;
 	position: relative;
-	margin: auto;
-	margin-top: 2%;
-	z-index: 10;
-	padding-top: 35px;
-	padding-bottom: 35px;
 	min-width: 750px;
+}
+#navTop{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	height: 75px;
+	width: 100%;
+	margin-bottom: 35px;
+	z-index: 1;
+}
+#logobox{
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 75px;
+	width: 75px;
+}
+#logopng{
+	width: 65px;
+}
+.navUl{
+	float: right;
+}
+.navBar{
+	display: inline;
+	padding: 0 25px;
+	height: 75px;
+	line-height: 75px;
+}
+.navBarLink{
+/*	color:  #f8f2ec;*/
+	color: #000;		/*Remove this later and un-comment the above line.*/
+	text-decoration: none;
+	font-size: 1em;
+}
+.navBarLink:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 h1{
 	font-family: /*Helvetica,*/ "Roboto Condensed", Helvetica, "Sans Serif";
@@ -37,6 +74,7 @@ h1{
 	font-size: 5.5em;
 	font-weight: 300;
 	padding-bottom: 5px;
+	margin-top: 85px;
 	letter-spacing: -0.08em;
 	line-height: 0.75em;
 	word-spacing: 0.2em;
@@ -53,23 +91,7 @@ h1{
 	word-spacing: 0.25em;
 	font-style: italic;
 }
-.navUl{
-	padding: 0;
-	margin-bottom: 15px;
-}
-.navBar{
-	display: inline;
-	padding: 0 15px;
-}
-.navBarLink{
-	color:  #f8f2ec;
-	text-decoration: none;
-}
-.navBarLink:hover {
-    text-decoration: underline;
-    text-transform: uppercase;
-}
-img{ 
+img{
 	display: block;
 	margin: 0 auto;
 	width: 50%;
@@ -119,14 +141,6 @@ hr{
 	display: block;
 	margin: auto;
 
-}
-ul{
-	display: block;
-	margin: 0 auto;
-	padding: 0 0 30px 0;
-	text-align: center;
-    list-style-type: none;
-    line-height: 1.5em;
 }
 .relatedInfo{
 	font-family: "open sans";
