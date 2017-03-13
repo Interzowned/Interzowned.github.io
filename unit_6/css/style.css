@@ -165,50 +165,49 @@ footer{
 	margin-top: 30px;
 }
 /*#email:hover { color: brown; }*/ /*KEEP FOR LATER THIS IS FUN*/
-/*.clearfix:after{
+
+#aboutUsArticle{
+	float: left;
+}
+#aboutUsAside{
+	float: right;
+}
+.clearfix:after{
 	visibility: hidden;
 	display: block;
 	font-size: 0
 	content: " ";
 	clear: both;
 	height: 0;
-}*/
-header {
+}
+.clear{
+	clear: both;
+}
+
+ /*Use this section to color code your divs*/
+/*header {
     background-color: #FFED74;
     border: 1px black solid;
     padding: 20px;
-}
-nav {
+}nav {
     background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px;
-}
-aside {
+}aside {
     background-color: #FFC675;
     border: 1px black solid;
     padding: 20px;
-}
-article {
+}article {
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
-}
-footer {
+}footer {
     background-color: #FF957E;
     border: 1px black solid;
     padding: 20px;
-}
-div,section {
+}div,section {
     background-color:  #FFE2B8;
     border: 1px black solid;
     padding: 20px;
-}
-.clearfix:after{
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-/**,li,h1,#slogan,a,.navBarLink,.relatedULLink,#email{color: black;}*/
+}*,li,h1,#slogan,a,.navBarLink,.relatedULLink,#email{color: black;}
+*/
