@@ -17,7 +17,7 @@ body{
 }
 #contain {
 	position: relative;
-	top: 75px;
+	top: 55px;
 	background-color: rgba(51,26,11,0.85);
 	width: 100%;
 	position: relative;
@@ -28,36 +28,38 @@ body{
 	top: 0;
 	left: 0;
 	background: #fff;
-	height: 75px;
+	height: 55px;
 	width: 100%;
-	margin-bottom: 35px;
 	z-index: 1;
-}
-#logobox{
-	display: inline-block;
-	position: relative;
-	top: 0;
-	left: 0;
-	height: 75px;
-	width: 75px;
-}
-#logopng{
-	width: 65px;
 }
 .navUl{
 	float: right;
 }
+#opener{
+	display: inline-block;
+	float: left;
+	height: 55px;
+	width: 150px;
+	line-height: 55px;
+	color: black;
+	font-size: 3.25em;
+	letter-spacing: -0.1em;
+	font-family: 'Roboto Condensed', Helvetica, "Sans Serif";
+}#openerspan{
+	font-size: 0.5em;
+}
 .navBar{
 	display: inline;
-	padding: 0 25px;
-	height: 75px;
-	line-height: 75px;
+	padding: 0 35px;
+	height: 55px;
+	line-height: 55px;
 }
 .navBarLink{
 /*	color:  #f8f2ec;*/
 	color: #000;		/*Remove this later and un-comment the above line.*/
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 1.5em;
+	font-family: 'Roboto Condensed', Helvetica, "Sans Serif";
 }
 .navBarLink:hover {
     text-decoration: underline;
@@ -65,19 +67,23 @@ body{
 }
 header{
 	background-image: url("../images/CoffeeBar.jpeg");
-	background-size: 100%;
-	background-position: 250px;
-	height: 650px;
-	padding-top: 275px;
+	height: 675px;
+	padding-top: 206px;
+}
+#headerContain{
+	margin: 0 auto;
+	background-color: rgba(255,255,255,1);
+	width: 670px;
+	padding: 25px 0;
 }
 h1{
 	font-family: /*Helvetica,*/ "Roboto Condensed", Helvetica, "Sans Serif";
-	color:  #f8f2ec;
-	max-width: 90%;
-	font-size: 5.5em;
+	margin: 0;
+	padding: 0;
+	color:  #000;
+	font-size: 7em;
 	font-weight: 300;
-	padding-bottom: 5px;
-	margin-top: 85px;
+	text-align: center;
 	letter-spacing: -0.08em;
 	line-height: 0.75em;
 	word-spacing: 0.2em;
@@ -85,11 +91,10 @@ h1{
 }
 #slogan{
 	font-family: "Merriweather", Times, serif;
-	color:  #f8f2ec;
+	color: #000;
 	text-align:  center;
 	font-weight: 400;
 	text-transform: uppercase;
-	padding-bottom: 15px;
 	font-size: 1.25em;
 	word-spacing: 0.25em;
 	font-style: italic;
@@ -101,7 +106,7 @@ img{
 	max-width: 650px;
 	margin-bottom: 20px;
 }
-h1,h2,h3,p {
+h2,h3,p {
 	text-align: center;
 	margin: auto;
 	width: 75%;
