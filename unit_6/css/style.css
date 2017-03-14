@@ -221,17 +221,20 @@ footer{
 	width: 100%;
 	z-index: 1;
 }
-.clearfix:after{
-	visibility: hidden;
-	display: block;
-	font-size: 0
-	content: " ";
-	clear: both;
-	height: 0;
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
 }
-.clear{
-	clear: both;
+.group:after {
+  	content: "";
+ 	display: table;
+ 	clear: both;
 }
+
 
  /*Use this section to color code your divs*/
 /*header {
