@@ -41,8 +41,8 @@ article{
 aside{
 	float: right;
 	width: 25%;
-	margin-top: 50px;
-	padding: 25px;
+	margin-top: 20px;
+	padding: 0 25px 0 25px
 	background-color: #f8f2ec;
 	height: 600px;
 	border-radius: 50px;
@@ -273,3 +273,22 @@ footer{
     padding: 20px;
 }*,li,h1,#slogan,a,.navBarLink,.relatedULLink,#email{color: black;}
 */
+
+/*Unit_6 coloring stuff*/
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+}
