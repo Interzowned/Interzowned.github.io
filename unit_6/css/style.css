@@ -32,16 +32,20 @@ section{
 	float: left;
 }
 article{
-	background-color: #000;
+	background-color: #f8f2ec;
 	padding: 25px;
 	margin: 0 25px 50px 25px;
 	border-radius: 50px;
 
 }
 aside{
-	padding-top: 50px;
-	width: 25%;
 	float: right;
+	width: 25%;
+	margin-top: 50px;
+	padding: 25px;
+	background-color: #f8f2ec;
+	height: 600px;
+	border-radius: 50px;
 }
 h1{
 	font-family: /*Helvetica,*/ "Roboto Condensed", Helvetica, "Sans Serif";
@@ -57,9 +61,14 @@ h1{
 	text-transform: uppercase;
 }
 h2,h3,p {
+	color: #000;
 	text-align: center;
 	margin: auto;
 	width: 75%;
+}
+h3{
+	font-size: 2em;
+	padding-bottom: 25px;
 }
 img{
 	display: block;
@@ -68,13 +77,14 @@ img{
 	max-width: 650px;
 	margin-bottom: 20px;
 }
-h2{
+h2,h3{
 	font-family: /*Helvetica,*/ "Roboto Condensed", Helvetica, "Sans Serif";
 }
 p,ul{
 	font-family: "Merriweather", Times, serif;
 }
 p{
+	color: #000;
 	text-align: justify;
 	max-width: 650px;
 	line-height: 1.5em;
@@ -194,10 +204,10 @@ p{
 .asideLi{
 	font-family: "open sans";
 	font-size: 0.7em;
-	padding: 0 15px;
+	padding: 0 15px 20px 15px;
 }
 .asideULLink{
-	color:  #f8f2ec;
+	color:  #000;
 	text-decoration: none;
 	text-align: center;
 }
