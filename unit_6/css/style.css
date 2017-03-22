@@ -10,12 +10,8 @@
 
 /*Begin Semantic Syling*/
 body{
-	color: #f8f2ec;
-	background-image: url("../images/coffee3.jpeg"); /*Rememeber this...*/
-	background-position: center;
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /*through this*/
+	background-color: rgba(51,26,11,0.25);
+
 }
 header{
 	background-image: url("../images/CoffeeBar.jpeg");
@@ -25,6 +21,7 @@ header{
 
 }
 main{
+	background-color: rgba(51,26,11,0.85);
 	padding: 50px 30px 0px 30px;
 }
 section{
@@ -37,7 +34,6 @@ article{
 	background-color: #f8f2ec;
 	padding: 25px;
 	margin-bottom: 50px;
-	border-radius: 50px;
 }
 article p{
 	margin-bottom: 40px;
@@ -48,7 +44,6 @@ aside{
 	padding: 25px;
 	background-color: #f8f2ec;
 	height: 672px;
-	border-radius: 50px;
 }
 footer{
 	position: relative;
@@ -107,11 +102,22 @@ p{
 /*End semantic styling and start ID styling*/
 #contain {
 	position: relative;
+	margin: 0 auto;
 	top: 55px;
 	background-color: rgba(51,26,11,0.85);
 	width: 100%;
-	position: relative;
 	min-width: 750px;
+	max-width: 1500px;
+	/*color: #f8f2ec;*/
+	background-image: url("../images/coffee3.jpeg"); /*Rememeber this...*/
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*through this*/
+	border-left: 8px;
+	border-right: 8px;
+    border-color: white;
+    border-style: solid;
 }
 #navTop{
 	position: fixed;
@@ -119,8 +125,8 @@ p{
 	left: 0;
 	background: #fff;
 	height: 55px;
-	width: 100%;
 	z-index: 1;
+	width: 100%;
 }
 .navUl{
 	float: right;
@@ -192,7 +198,6 @@ footer .navBarLink{
 	font-weight: 300;
 	padding-bottom: 25px;
 	text-align: center;
-
 }
 .weOfferLi{
 	display: inline-block;
@@ -218,11 +223,14 @@ footer .navBarLink{
 	padding: 0;
 	margin-bottom: 15px;
 }
+.aside{
+	text-align: left;
+}
 .asideLi{
 	font-family: "Merriweather", Times, serif;
 	font-size: 0.7em;
 	padding: 0 15px 20px 15px;
-	text-align: center;
+	text-align: left;
 	font-size: 1.25em;
 	line-height: 1.5em;
 }
