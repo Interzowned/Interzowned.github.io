@@ -10,6 +10,7 @@
 
 /*Begin Semantic Syling*/
 body{
+	font-size: 16px;
 	background-color: rgba(51,26,11,0.25);
 
 }
@@ -32,6 +33,7 @@ section{
 }
 article{
 	background-color: #f8f2ec;
+	margin: 0 2em;
 	padding: 25px;
 	margin-bottom: 50px;
 }
@@ -67,7 +69,7 @@ h2,h3,p {
 	color: #000;
 	text-align: center;
 	margin: auto;
-	width: 75%;
+	width: 85%;
 }
 h3{
 	font-size: 2em;
@@ -106,8 +108,8 @@ p{
 	top: 55px;
 	background-color: rgba(51,26,11,0.85);
 	width: 100%;
-	min-width: 750px;
-	max-width: 1500px;
+/*	min-width: 750px;
+	max-width: 1500px;*/
 	/*color: #f8f2ec;*/
 	background-image: url("../images/coffee3.jpeg"); /*Rememeber this...*/
 	background-position: center;
@@ -199,14 +201,18 @@ footer .navBarLink{
 	padding-bottom: 25px;
 	text-align: center;
 }
-.weOfferLi{
-	display: inline-block;
-	margin: 0 auto;
-	text-align: center;
-}
 #weOfferUL{
 	margin: 0 auto;
 	text-align: center;
+}
+.weOfferLi{
+	font-family: "Merriweather", Times, serif;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 1.25em;
+	margin-bottom: 15px;
 }
 #ulContain{
 	display: block;
@@ -248,14 +254,14 @@ footer .navBarLink{
 	margin-bottom: 15px;
 }
 footer p{
-position: absolute;
-margin: 0;
-padding: 0;
-width: auto;
-left: 25%;
-transform: translateX(-25%);
-height: 150px;
-line-height: 150px
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	left: 25%;
+	transform: translateX(-25%);
+	height: 150px;
+	line-height: 150px
 
 }
 /*#email:hover { color: brown; }*/ /*KEEP FOR LATER THIS IS FUN*/
@@ -306,3 +312,5 @@ line-height: 150px
     border: 1px black solid;
     padding: 20px;
 }*,li,h1,#slogan,a,.navBarLink,.relatedULLink,#email{color: black;}*/
+
+@media only-screen and (min-width: 768px)
