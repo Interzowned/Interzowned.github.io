@@ -356,7 +356,7 @@ footer p{
 	transform: translateX(-50%);
 	top: 50%;
 	transform: translateY(-50%);
-}
+	}
 	#navTop{
 		position: relative;
 		height: 10em;
@@ -369,6 +369,11 @@ footer p{
 		float: none;
 		width: 100%;
 		text-align: center;
+	}
+	#navTop ul{
+		width: 45em;
+		float: none;
+		margin: 0 auto;
 	}
 /*	.navUl{
 		float: none;
@@ -388,3 +393,33 @@ footer p{
 		line-height: 2.5em;
 	}*/
 }
+@media screen and (max-width: 640px){
+	body{
+		font-size: 10px;
+	}
+	#navTop{
+		height: 12em;
+	}
+	#navTop ul{
+		width: auto;
+		float: right;
+	}
+	#opener{
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		font-size: 5em;
+		width: auto;
+		float: left;
+		top: 50%;
+		transform: translateY(-50%);
+/*		height: 2.5em;
+		line-height: 2.5em;*/
+	}
+	.navBar{
+		display: block;
+	}
+	.navUl{
+		float left;
+		margin: 0 auto;
+	}
