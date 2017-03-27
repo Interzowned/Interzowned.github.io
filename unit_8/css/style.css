@@ -252,7 +252,6 @@ footer #navBot{
 
 #email{
 	color: #000;
-	margin-bottom: 15px;
 }
 footer p{
 	position: absolute;
@@ -261,9 +260,8 @@ footer p{
 	width: auto;
 	left: 25%;
 	transform: translateX(-25%);
-	height: 150px;
-	line-height: 150px
-
+	top: 50%;
+	transform: translateY(-50%);
 }
 /*#email:hover { color: brown; }*/ /*KEEP FOR LATER THIS IS FUN*/
 #navBot{
@@ -347,7 +345,10 @@ footer p{
 		margin: 2em auto;
 	}
 	footer{
-		height: 10em;
+		height: 5em;
+	}
+	footer nav{
+		visibility: hidden;
 	}
 	#navTop{
 		position: relative;
