@@ -16,7 +16,7 @@ body{
 }
 header{
 	background-image: url("../images/CoffeeBar.jpeg");
-	height: 675px;
+	height: 42em;
 	background-size: cover;
 	background-position: center;
 
@@ -33,7 +33,6 @@ section{
 }
 article{
 	background-color: #f8f2ec;
-	margin: 0 2em;
 	padding: 25px;
 	margin-bottom: 50px;
 }
@@ -49,7 +48,7 @@ aside{
 }
 footer{
 	position: relative;
-	height: 150px;
+	height: 10em;
 	background-color: #fff;
 }
 h1{
@@ -73,7 +72,7 @@ h2,h3,p {
 }
 h3{
 	font-size: 2em;
-	padding-bottom: 25px;
+	padding-bottom: 2em;
 }
 img{
 	display: block;
@@ -84,7 +83,7 @@ img{
 }
 h2,h3{
 	font-family: /*Helvetica,*/ "Roboto Condensed", Helvetica, "Sans Serif";
-	font-size: 2.5em;
+	font-size: 3em;
 	font-weight: 900px;
 	letter-spacing: -0.1em;
 	line-height: 0.75em;
@@ -105,7 +104,7 @@ p{
 #contain {
 	position: relative;
 	margin: 0 auto;
-	top: 55px;
+	top: 3em;
 	background-color: rgba(51,26,11,0.85);
 	width: 100%;
 /*	min-width: 750px;
@@ -116,46 +115,47 @@ p{
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /*through this*/
-	border-left: 8px;
-	border-right: 8px;
-    border-color: white;
-    border-style: solid;
 }
 #navTop{
 	position: fixed;
 	top: 0;
 	left: 0;
 	background: #fff;
-	height: 55px;
+	height: 3em;
 	z-index: 1;
 	width: 100%;
 }
 .navUl{
 	float: right;
+	height: 9.375em;
 }
 #opener{
+	font-family: 'Roboto Condensed', Helvetica, "Sans Serif";
 	display: inline-block;
 	float: left;
-	height: 55px;
-	width: 150px;
-	line-height: 55px;
+	height: 1em;
+	width: 100px;
+	line-height: 1em;
 	color: black;
 	font-size: 3.25em;
 	letter-spacing: -0.1em;
-	font-family: 'Roboto Condensed', Helvetica, "Sans Serif";
 }#openerspan{
 	font-size: 0.75em;
 	letter-spacing: -0.14em;
 }
 .navBar{
 	display: inline;
-	padding: 0 20px;
-	height: 55px;
-	line-height: 55px;
+	padding: 0 1.5em;
+	height: 3em;
+	line-height: 3em;
 }
-footer .navBarLink{
-	height: 150px;
-	line-height: 150px;
+footer .navBar{
+	height: 9.375em;
+	line-height: 9.375em;
+}
+footer #navBot{
+	top: 50%;
+  	transform: translateY(-50%);
 }
 .navBarLink{
 /*	color:  #f8f2ec;*/
@@ -174,8 +174,8 @@ footer .navBarLink{
   	transform: translateY(-50%);
 	margin: 0 auto;
 	background-color: rgba(255,255,255,1);
-	width: 670px;
-	padding: 25px 0;
+	width: 42em;
+	padding: 2em 0;
 }
 #slogan{
 	font-family: "Merriweather", Times, serif;
@@ -225,11 +225,12 @@ footer .navBarLink{
 	font-style: italic;
 	margin: 0 auto;
 }
-.rekatedUL{
+.relatedUL{
 	padding: 0;
 	margin-bottom: 15px;
 }
 .aside{
+	font-size: 2em;
 	text-align: left;
 }
 .asideLi{
@@ -267,8 +268,6 @@ footer p{
 /*#email:hover { color: brown; }*/ /*KEEP FOR LATER THIS IS FUN*/
 #navBot{
 	background: #fff;
-	height: 100px;
-	width: 100%;
 	z-index: 1;
 }
 .clearfix:after {
@@ -313,4 +312,71 @@ footer p{
     padding: 20px;
 }*,li,h1,#slogan,a,.navBarLink,.relatedULLink,#email{color: black;}*/
 
-@media only-screen and (min-width: 768px)
+@media screen and (max-width: 1280px){
+	body{
+		font-size: 14px;
+	}
+	footer{
+		height: 9.375em;
+	}
+
+
+}
+@media screen and (max-width: 768px){
+	body{
+		font-size: 14px;
+	}
+	main{
+		padding: 3em 0 2em 0;
+	}
+	section{
+		margin: 0;
+		padding: 0;
+		float: none;
+		width: 100%;
+		margin-bottom: 3em;
+	}
+	article{
+		width: 90%;
+		margin: 2em auto;
+		padding: 2em;
+	}
+	aside{
+		float: none;
+		width: 90%;
+		margin: 2em auto;
+	}
+	footer{
+		height: 10em;
+	}
+	#navTop{
+		position: relative;
+		height: 10em;
+	}
+	#contain{
+		top:0;
+	}
+	#opener{
+		margin-top: 0.5em;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+/*	.navUl{
+		float: none;
+		width: 100%;
+	}
+	.navBar{
+		display: inline-block;
+		text-align: center;
+		margin: 0 auto;
+		width: 24%;
+		padding: 0;
+	}
+	#navBot .navUl{
+		height: 1em;
+	}
+	#navBot .navBar{
+		line-height: 2.5em;
+	}*/
+}
