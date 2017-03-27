@@ -409,6 +409,7 @@ footer p{
 		float: left;
 		top: 50%;
 		transform: translateY(-50%);
+		left: 10%;
 /*		height: 2.5em;
 		line-height: 2.5em;*/
 	}
@@ -440,8 +441,5 @@ footer p{
 	}
 	article .weOfferLi{
 		font-size: 1.25em;
-	}
-	aside{
-		height: auto;
 	}
 }
