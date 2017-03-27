@@ -276,11 +276,6 @@ footer p{
     clear: both;
     height: 0;
 }
-.group:after {
-  	content: "";
- 	display: table;
- 	clear: both;
-}
 
 
  /*Use this section to color code your divs*/
@@ -352,7 +347,8 @@ footer p{
 	}
 	footer p{
 	font-size: 2em;
-	left: 50%;
+	position: absolute;
+	left: 45%;
 	transform: translateX(-50%);
 	top: 50%;
 	transform: translateY(-50%);
@@ -423,20 +419,29 @@ footer p{
 		float left;
 		margin: 0 auto;
 	}
+	header h1{
+		font-size: 5em;
+	}
+	#headerContain{
+		width: 30em;
+	}
 	article #aboutUS{
-		font-size: 7em;
+		font-size: 4em;
 	}
 	article #weOffer{
-		font-size: 7em;
+		font-size: 4em;
 	}
 	article #excitingNews{
-		font-size: 7em;
+		font-size: 4em;
 	}
 	article	p{
-		font-size: 3em;
+		font-size: 1.5em;
 		text-align: left;
 	}
 	article .weOfferLi{
-		font-size: 1.5em;
+		font-size: 1.25em;
+	}
+	aside{
+		height: auto;
 	}
 }
