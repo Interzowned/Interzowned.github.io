@@ -47,9 +47,7 @@ aside{
 	height: 672px;
 }
 footer{
-	position: relative;
-	height: 10em;
-	background-color: #fff;
+	background-color: #FFF;
 }
 h1{
 	font-family: "Roboto Condensed", Helvetica, "Sans Serif";
@@ -89,14 +87,13 @@ h2,h3{
 	line-height: 0.75em;
 	text-transform: uppercase;
 }
-p,ul{
+p,ul,{
 	font-family: "Merriweather", Times, serif;
 }
 p{
 	color: #000;
 	text-align: justify;
-/*	max-width: 650px;
-*/	line-height: 1.5em;
+	line-height: 1.5em;
 	font-size: 1.25em;
 	margin-bottom: 15px;
 }
@@ -125,7 +122,7 @@ p{
 	z-index: 1;
 	width: 100%;
 }
-.navUl{
+.navUlTop{
 	float: right;
 	height: 9.375em;
 }
@@ -148,14 +145,6 @@ p{
 	padding: 0 1.5em;
 	height: 3em;
 	line-height: 3em;
-}
-footer .navBar{
-	height: 9.375em;
-	line-height: 9.375em;
-}
-footer #navBot{
-	top: 50%;
-  	transform: translateY(-50%);
 }
 .navBarLink{
 /*	color:  #f8f2ec;*/
@@ -251,23 +240,22 @@ footer #navBot{
 }
 
 #email{
+	font-family: "Merriweather", Times, serif;
+	font-size: 1.25em;
+	text-decoration: none;
 	color: #000;
 }
-footer p{
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	width: auto;
-	left: 25%;
-	transform: translateX(-25%);
-	top: 50%;
-	transform: translateY(-50%);
+#email:hover{
+	text-decoration: underline;
 }
+footer  #navBot{
+	background-color: #FFF;
+}
+footer .navUl{
+	float: right;
+}
+
 /*#email:hover { color: brown; }*/ /*KEEP FOR LATER THIS IS FUN*/
-#navBot{
-	background: #fff;
-	z-index: 1;
-}
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -303,16 +291,12 @@ footer p{
     background-color:  #FFE2B8;
     border: 1px black solid;
     padding: 20px;
-}*,li,h1,#slogan,a,.navBarLink,.relatedULLink,#email{color: black;}*/
-
+}*,li,h1,#slogan,a,.navBarLink,.relatedULLink,#email{color: black;}
+*/
 @media screen and (max-width: 1280px){
 	body{
 		font-size: 14px;
 	}
-	footer{
-		height: 9.375em;
-	}
-
 
 }
 @media screen and (max-width: 768px){
@@ -339,19 +323,20 @@ footer p{
 		width: 90%;
 		margin: 2em auto;
 	}
-	footer{
-		height: 10em;
+	footer .navUl{
+		float: none;
 	}
-	footer nav{
-		visibility: hidden;
+	footer .navBar{
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0;
 	}
-	footer p{
-	font-size: 2em;
-	position: absolute;
-	left: 45%;
-	transform: translateX(-50%);
-	top: 50%;
-	transform: translateY(-50%);
+	footer .navUl{
+		margin: 0 auto;
+	}
+	footer #navBot{
+		margin: 0 auto;
 	}
 	#navTop{
 		position: relative;
@@ -371,23 +356,7 @@ footer p{
 		float: none;
 		margin: 0 auto;
 	}
-/*	.navUl{
-		float: none;
-		width: 100%;
-	}
-	.navBar{
-		display: inline-block;
-		text-align: center;
-		margin: 0 auto;
-		width: 24%;
-		padding: 0;
-	}
-	#navBot .navUl{
-		height: 1em;
-	}
-	#navBot .navBar{
-		line-height: 2.5em;
-	}*/
+
 }
 @media screen and (max-width: 640px){
 	body{
@@ -444,5 +413,8 @@ footer p{
 	}
 	aside{
 		height: auto;
+	}
+	footer ul{
+		margin: 0 auto;
 	}
 }
